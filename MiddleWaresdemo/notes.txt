@@ -1,0 +1,10 @@
+﻿middleware:
+built-in middleware
+custom middleware
+
+A (component)class which is executed on every request in asp.net core web app.
+
+1)every middleware execution order can be set.
+2) each middleware adds or modifies http request and optionally 
+pass the control to the next middleware.
+Middle wares build the pipeline.
